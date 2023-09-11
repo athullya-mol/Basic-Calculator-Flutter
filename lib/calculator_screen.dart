@@ -61,12 +61,12 @@ void onButtonPressed(String buttonText){
           children: [
               Expanded(
           child: Container(
-            alignment: Alignment.topRight,
+            alignment: Alignment.bottomRight,
             padding: const EdgeInsets.all(16),
             child: Text(
               input.isEmpty ? "0" : input,
               style: const TextStyle(
-                fontSize: 40,
+                fontSize: 50,
                 fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.end,
@@ -81,16 +81,13 @@ void onButtonPressed(String buttonText){
             child: Text(
               result,
               style: const TextStyle(
-                fontSize: 50,
+                fontSize: 60,
                 fontWeight: FontWeight.bold,
                 color: Color.fromARGB(255, 249, 224, 3)
               ),
               textAlign: TextAlign.end,
             ),
           ),
-        ),
-        SizedBox(
-          height: MediaQuery.of(context).size.height*0.02,
         ),
             GridView.builder(
               shrinkWrap: true,
