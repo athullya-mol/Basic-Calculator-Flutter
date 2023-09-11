@@ -9,6 +9,7 @@ This is a Basic Calculator App built with flutter thats performs basic arithmeti
 - **C** button to reset input and output.
 - **<-** button to delete last digit or character entered in the input field.
 - Error handling for invalid inputs.
+- User-Friendly Interface
 
 ## Installation
 
