@@ -1,7 +1,6 @@
-# basic_calculator
+# Basic Calculator App Using Flutter
 
-A new Flutter project.
-
+This is a Basic Calculator App built with flutter thats performs basic arithmetic operations like Addition, Subtraction,  Division and Multiplication.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
